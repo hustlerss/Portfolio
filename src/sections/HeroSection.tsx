@@ -122,7 +122,9 @@ export default function HeroSection() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#"
+              href="/resume.pdf"
+              target="_blank"
+              download="Rohan_Kirdak_Resume.pdf"
               className="px-6 py-3.5 rounded-full font-medium font-outfit text-xs text-slate-400 hover:text-white transition-all cursor-pointer flex items-center gap-2"
             >
               <Download className="w-4 h-4" />
